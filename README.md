@@ -73,4 +73,17 @@ While there is data to be shown to the user, a simple loading is render. After t
 ### JobAd.js
 
 This page gets the data from JobAds with use of `react-router-dom`. If the user is navigated to this page manually(by URL and not by clicking on a job ad row) then there could be a call to the server to retrieve a single job ad, but that functionality is currently not implemented. With some modifications, the detailed data is displayed to the user. The other elements on the page are just placeholders, they have no implemented functionality.
-<br /><br />
+<br /><br /><br /><br />
+
+## Usage
+
+The user is greeted with the login page. As the users are auto generated and there is no way to register, the following users can be used:<br /><br />
+
+Username: James Doe, password: asdqwe123, role: company<br /><br />
+
+Username: Jane Doe, password: ultraPassword456, role: user<br /><br />
+
+As only compnay users have access to the page, only James Doe will be logged in. Jane Doe will have an unauthorized error, but errors are displayed on the UI currently.<br />
+Currently there is no log out button, so if the user wants to log out, the `localStorage` needs to be cleared. For that, open the `developer tools` -> `Application` -> `localStorage`.<br /><br />
+
+After log in, navigate to the Job Ads page, click on one of the rows, and the detailed job page will be displayed.
