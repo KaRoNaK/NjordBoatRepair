@@ -52,7 +52,7 @@ This defines the connections between the models and populates them with some dum
 
 ### App.js
 
-I used `react-router-dom` to render the aprropriate page for the user and protect the routes that (s)he should not be able to reach. If the user is not authenticated, the login page will load, otherwise the dashboard page. When the user tries to log in, the app will check if it got back the correct response from the server. If everything is correct then the state is updated and some information is stored in `localStorage`, so even after the user reloads the page, (s)he is still loged in. The user will be automaticly logged out in one hour and the `localStorage` will be cleared.
+I used `react-router-dom` to render the appropriate page for the user and protect the routes that (s)he should not be able to reach. If the user is not authenticated, the login page will load, otherwise the dashboard page. When the user tries to log in, the app will check if it got back the correct response from the server. If everything is correct then the state is updated and some information is stored in `localStorage`, so even after the user reloads the page, (s)he is still loged in. The user will be automaticly logged out in one hour and the `localStorage` will be cleared.
 <br /><br />
 
 ### Login
@@ -67,7 +67,7 @@ The app has a basic navigation, used with `react-router-dom`. Most of the pages 
 
 ### JobAds.js
 
-While there is data to be shown to the user, a simple loading is render. After the page is loaded `componentDidMount` will make a call to the server and retrive all the availabel jobs. The user token will be attached to the call, so server can verify the user. Before displaying the data, some modifications are performed so it looks presentable to the user. `material-ui` has been used to display the data in a table-like format. If the user clicks on one of the rows, the page navigates to a detailed job add page.
+While there is no data to be shown to the user, a simple loading message is rendered. After the page is loaded `componentDidMount` will make a call to the server and retrive all the availabel jobs. The user token will be attached to the call, so the server can verify the user. Before displaying the data, some modifications are performed so it looks presentable to the user. `material-ui` has been used to display the data in a table format. If the user clicks on one of the rows, the page navigates to a detailed job ad page.
 <br /><br />
 
 ### JobAd.js
@@ -83,7 +83,7 @@ Username: James Doe, password: asdqwe123, role: company<br /><br />
 
 Username: Jane Doe, password: ultraPassword456, role: user<br /><br />
 
-As only compnay users have access to the page, only James Doe will be logged in. Jane Doe will have an unauthorized error, but errors are displayed on the UI currently.<br />
+As only compnay users have access to the page, only James Doe will be logged in. Jane Doe will have an unauthorized error, but errors are not displayed on the UI currently.<br />
 Currently there is no log out button, so if the user wants to log out, the `localStorage` needs to be cleared. For that, open the `developer tools` -> `Application` -> `localStorage`.<br /><br />
 
 After log in, navigate to the Job Ads page, click on one of the rows, and the detailed job page will be displayed.
