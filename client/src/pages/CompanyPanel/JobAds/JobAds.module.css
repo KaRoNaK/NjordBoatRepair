@@ -1,0 +1,27 @@
+.Title {
+    color: #5a5b5d;
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+}
+
+.TableHeader {
+    color: #969696;
+}
+
+.TableContent {
+    color: #5a5b5d;
+}
+
+.NoEmergency {
+    background-color: #5db85b;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.2rem 1rem;
+}
+
+.Emergency {
+    background-color: #a53036;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.2rem 0.2rem;
+}

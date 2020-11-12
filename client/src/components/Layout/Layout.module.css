@@ -1,0 +1,7 @@
+.Content {
+    box-sizing: border-box;
+    margin: 4rem 0 0 20rem;
+    height: calc(100vh - 4rem);
+    padding: 2rem;
+    background-color: #f8f8f8;
+}

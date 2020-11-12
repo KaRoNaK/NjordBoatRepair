@@ -1,0 +1,29 @@
+.Navbar {
+    background-color: #334d88;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.HamIcon {
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+.HamIconElement {
+    width: 1.8rem;
+    height: 0.15rem;
+    background-color: white;
+    margin: 0.3rem 0;
+}
+
+.Logo {
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 0 2rem;
+}

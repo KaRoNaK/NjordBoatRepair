@@ -1,0 +1,28 @@
+.title {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    color: #5c5d5f;
+    text-align: center;
+}
+
+.passwordHelpers {
+    display: flex;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.passwordHelpers p {
+    margin: 0;
+}
+
+.btn {
+    width: 100%;
+    background-color: #f5cb52;
+    color: white;
+    font-size: 1.5rem;
+    border: 0;
+    outline: none;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+}

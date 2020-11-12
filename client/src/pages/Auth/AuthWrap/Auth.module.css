@@ -1,0 +1,32 @@
+.background {
+    height: 100vh;
+    background: url("../../../assets/images/boat.jpg");
+    background-size: cover;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 300px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header {
+    text-align: center;
+    background-color: #1b2a49;
+    padding: 1rem 0;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.content {
+    padding: 0 1.2rem;
+}
+
+.footer {
+    font-size: 0.8rem;
+    color: #626568;
+    padding: 2rem 0;
+    text-align: center;
+}

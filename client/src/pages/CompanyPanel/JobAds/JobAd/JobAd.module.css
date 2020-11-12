@@ -1,0 +1,49 @@
+.Container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    box-shadow: 0 0 4px #888;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+}
+
+.ReportContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ResponseContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Title {
+    font-size: 1.5rem;
+    color: #5a5b5d;
+    margin-bottom: 2rem;
+}
+
+.Button {
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+}
+
+.ReportButton {
+    background-color: #f6cd51;
+}
+
+.ProposalButton {
+    background-color: #68b263;
+}
+
+.RejectButton {
+    background-color: #a83137;
+}
